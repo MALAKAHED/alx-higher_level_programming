@@ -1,4 +1,11 @@
+#!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
-    rows = [', '.join(map(str, row)) for row in matrix]
-    matrix_string = '\n'.join(rows)
-    print(matrix_string)
+    for i in matrix:
+        l = 1
+        for j in i:
+            if l == len(i):
+                print("{:d}".format(j), end="")
+            else:
+                print("{:d}".format(j), end=" ")
+            l = l + 1
+        print()
