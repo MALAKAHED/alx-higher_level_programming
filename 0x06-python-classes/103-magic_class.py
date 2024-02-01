@@ -22,7 +22,7 @@ class MagicClass:
         self.__radius = 0
         if not isinstance(radius, int) and not isinstance(radius, float):
             raise TypeError("radius must be a number")
-        else:
+        else: 
             self.__radius = radius
 
     def area(self):
