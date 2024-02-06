@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/ALX/alx-higher_level_programming/;ljkljkljlk;l",
-      "program": "d:/ALX/alx-higher_level_programming/;ljkljkljlk;l/build/Debug/outDebug",
+      "cwd": "d:/ALX/alx-higher_level_programming/HELLO",
+      "program": "d:/ALX/alx-higher_level_programming/HELLO/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
