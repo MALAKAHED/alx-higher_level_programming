@@ -1,12 +1,10 @@
-#!/usr/bin/env
-// turn back arguments 
+#!/usr/bin/node
+// Prints a message depending of the number of arguments passed
 
-const args = process.argv.slice(2);
-
-if (args.length === 0) {
-    console.log("No argument");
-} else if (args.length === 1) {
-    console.log("Argument found");
-} else {
-    console.log("Arguments found");
-}
+if (process.argv.length === 0) {
+    console.log('No argument');
+  } else if (process.argv.length === 1) {
+    console.log('Argument found');
+  } else {
+    console.log('Arguments found');
+  }
