@@ -1,0 +1,1 @@
+Read me file for js new dir 
